@@ -62,7 +62,7 @@ class Produto{
 
     function nome(){
         echo " O Produto " . $this->nome . " é da marca " . $this->marca
-        . " tem a cor " . $this->descricao ;
+        . " e tem a cor " . $this->descricao ;
 
          
     }

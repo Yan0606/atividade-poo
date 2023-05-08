@@ -1,6 +1,6 @@
 <?php
 
-class Cliente{
+class Professor{
     //atributos
     private $nome;
     private $cpf;
@@ -73,13 +73,9 @@ class Cliente{
         return($this->telefone);
     }
 
-    function verificarIdade($orientacao){
-        if($orientacao >= 18) echo $this->nome . " é maior de idade";
-        else if ($orientacao < 18) echo $this-> nome . "é menor de idade";
-    }
-
+    
     function exibir(){
-        echo " Tem o CPF de " . $this->cpf . " mora na  " . $this->endereco . " tem o email: " . $this->email . " e telefone: " . $this->telefone;
+        echo "O professor ". $this->nome ." Tem o CPF de " . $this->cpf . " mora na  " . $this->endereco . " tem o email: " . $this->email . " e telefone: " . $this->telefone;
 
          
     }
